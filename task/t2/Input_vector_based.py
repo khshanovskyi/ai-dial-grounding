@@ -1,7 +1,7 @@
 import asyncio
 from typing import Any
 from langchain_community.vectorstores import FAISS
-from langchain.schema import SystemMessage, HumanMessage
+from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.documents import Document
 from langchain_openai import AzureOpenAIEmbeddings, AzureChatOpenAI
 from pydantic import SecretStr

@@ -2,7 +2,7 @@ import asyncio
 from typing import Any, Optional
 
 from langchain_chroma import Chroma
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 from langchain_core.documents import Document
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain_core.prompts import SystemMessagePromptTemplate, ChatPromptTemplate
